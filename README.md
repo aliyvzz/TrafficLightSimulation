@@ -13,3 +13,11 @@ The aim of the project is to simulate basic traffic light behavior at a four-way
 - 🧠 Optional auto-input system for randomized testing
 - 🎨 JavaFX-based interface and animation
 
+## 👥 Contributors
+
+- [@aliyvzz](https://github.com/aliyvzz)  
+- [@erdmoks](https://github.com/erdmoks)
+- [@erolyilmazz](https://github.com/erolyilmazz) 
+
+
+
