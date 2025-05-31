@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.erciyes.trafficlightsimulation.MenuManager">
+   <children>
+      <Button fx:id="startButton" layoutX="14.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleStartButton" prefHeight="153.0" prefWidth="185.0" text="Start" textAlignment="JUSTIFY">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="autoButton" layoutX="264.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleAutoButton" prefHeight="36.0" prefWidth="73.0" text="Oto" visible="false" />
+      <Button fx:id="manualButton" layoutX="396.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleManualButton" prefHeight="36.0" prefWidth="73.0" text="Manuel" visible="false" />
+      <TextField fx:id="northField" layoutX="300.0" layoutY="139.0" promptText="North için sayı girin..." visible="false" />
+      <TextField fx:id="southField" layoutX="300.0" layoutY="176.0" promptText="South için sayı girin..." visible="false" />
+      <TextField fx:id="eastField" layoutX="300.0" layoutY="218.0" promptText="East için sayı girin..." visible="false" />
+      <TextField fx:id="westField" layoutX="300.0" layoutY="252.0" promptText="West için sayı girin..." visible="false" />
+      <Button fx:id="continueButton" layoutX="509.0" layoutY="252.0" mnemonicParsing="false" onAction="#handleContinue" text="PLAY" visible="false" />
+   </children>
+</AnchorPane>
